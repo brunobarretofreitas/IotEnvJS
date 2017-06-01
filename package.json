@@ -1,0 +1,19 @@
+{
+  "name": "iotenvjs",
+  "version": "1.0.0",
+  "description": "api para forneces dados coletados através do framework IoTEnv",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunobarretofreitas/IotEnvJS.git"
+  },
+  "author": "brunobarreto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunobarretofreitas/IotEnvJS/issues"
+  },
+  "homepage": "https://github.com/brunobarretofreitas/IotEnvJS#readme"
+}
