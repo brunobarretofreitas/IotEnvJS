@@ -1,10 +1,11 @@
 var config = {};
 
-config.brokerHost = "broker.mqttdashboard.com";
-config.brokerPort = "1883";
-config.brokerUser = "";
-config.brokerPassword = "";
+config.appPort = 3000;
 
 config.mongoHost = "localhost";
-config.mongoPort = "";
-config.mongoDatabase = "iotenv"; 
+config.mongoPort = 27017;
+config.mongoDatabase = "iotenv";
+
+config.mongoURL = "mongodb://"+config.mongoHost+"/"+config.mongoDatabase;
+
+module.exports = config;
